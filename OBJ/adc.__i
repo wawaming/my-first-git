@@ -1,0 +1,6 @@
+-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\FWLIB\inc -I ..\PROJECT -I ..\APP -I ..\BSP -I ..\DRIVE\LCD -I ..\DRIVE\MOTOR_CONTROL -I ..\DRIVE\positioner -I ..\DRIVE\RBC_LCD -I ..\DRIVE\Under_Pan -I ..\PROJECT -I ..\DRIVE -I ..\UCOSIII\uC-CPU -I ..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I ..\UCOSIII\uC-LIB -I ..\UCOSIII\uCOS-III -I ..\UCOSIII\UCOSII-CONFIG -I ..\UCOSIII\UCOSIII-BSP -I ..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I ..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I ..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView -I ..\UCOSIII\uCOS-III\Source
+-I "D:\国赛资料\软件\2017软件\摩擦发射\2017系统版 -摩擦\PROJECT\RTE"
+-I C:\Keil_v5\ARM\CMSIS\Include
+-I Drivers\CMSIS\Device\ST\STM32F4xx\Include
+-D__UVISION_VERSION="518" -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER
+-o ..\obj\adc.o --omf_browse ..\obj\adc.crf --depend ..\obj\adc.d "..\BSP\ADC.c"
